@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+    
+<style>
+ body {
+    background-image: url('/assets/img/night.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    min-height: 100vh;        
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    width: 70%;
+    max-width: 800px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7); 
+}
+
+.main {
+    color: #FFD700;
+    font-size: 70px;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6); 
+}
+
+p {
+    color: #87CEFA; 
+    font-size: 50px;
+    margin: 20px 0 0 0;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+a > span {
+    font-size: 25px;
+    color: #FFFAF0; 
+}
+
+a > span > img {
+    width: 30px;
+    height: 30px;
+}
+</style>
+</head>
+<body>
+
+    <div>
+        <p class="main">Have a minute!?</p>
+        <p>Check out my other projects on GitHub:)</p>
+        <a class="sidebar-link" target="_blank" href="https://github.com/Hosein-ghodrati" aria-expanded="false">
+            <span>
+                <img src="/assets/img/github.png" alt="GitHub">
+            </span>
+            <span class="hide-menu">GitHub</span>
+        </a>
+    </div>
+
+</body>
+</html>
