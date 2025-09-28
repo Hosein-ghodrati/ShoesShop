@@ -39,11 +39,11 @@ To access the system:
 
 - **Admin Login**  
   - Username: `admin`  
-  - Password: `admin123`
+  - Password: `123`
 
 - **User Login**  
-  - Username: `user`  
-  - Password: `user123456`
+  - Username: `user1`  
+  - Password: `123456`
 
 You can also view or modify credentials and data by importing the provided database into **phpMyAdmin**.
 
